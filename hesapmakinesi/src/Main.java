@@ -10,7 +10,7 @@ public class Main {
         System.out.println("ikinci sayıyı giriniz :");
         n2 = input.nextInt();
 
-        System.out.println("1-Toplam\n2-Çıkarma\n3-Çarma\n4-Bölmen\n5");
+        System.out.println("1-Toplam\n2-Çıkarma\n3-Çarma\n4-Bölme");
         System.out.println("Seçiniz : ");
         select = input.nextInt();
 
