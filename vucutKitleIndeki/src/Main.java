@@ -13,7 +13,7 @@ public class Main {
         System.out.println("lütfen kilonuzu  giriniz  : ");
         kilo=input.nextInt();
 
-        double indeks= (kilo / boy * boy);
+        double indeks= kilo /( boy * boy);
         System.out.println("vücut kitle indeksiniz : " + indeks);
 
 
