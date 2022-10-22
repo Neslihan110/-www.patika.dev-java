@@ -25,7 +25,7 @@ public class Main {
              System.out.println("Çarpma : " + (n1 * n2));
              break;
         case 4 :
-            System.out.println("Böme : " + (n1/n2));
+            System.out.println("Bölme : " + (n1/n2));
         case  0:
             System.out.println("bir sayı 0'a bölünemez");
             break;
