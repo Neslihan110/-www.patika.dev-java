@@ -11,7 +11,7 @@ public class Main {
             System.out.print("n2 sayılarını Girin :");
             n2 = input.nextInt();
             if (n1 <= 0 || n2 <= 0) {
-                System.out.println("Pozitif sayılar giriniz.");
+                System.out.println("Pozitif sayılar giriniz :");
             } else {
                 a = true;
             }
