@@ -9,20 +9,20 @@ public class Main {
 
         for (int i = 1; i <= n; i++) {
             for (int k = 0; k < (n - i); k++) {
-                System.out.println(" ");
+                System.out.print(" ");
             }
 
             for (int m = 1; m <= (2 * i) - 1; m++) {
-                System.out.println("*");
+                System.out.print("*");
             }
             System.out.println();
         }
         for (int i = 1; i <= n; i++) {
             for (int k = n; k < (n + i); k++) {
-                System.out.println(" ");
+                System.out.print(" ");
             }
             for (int m = 1; m <= ((n - i) * 2) - 1; m++) {
-                System.out.println("*");
+                System.out.print("*");
             }
             System.out.println(" ");
 
