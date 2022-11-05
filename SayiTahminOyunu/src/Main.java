@@ -49,7 +49,7 @@ public class Main {
         if (!isWin) {
             System.out.println("Kaybettiniz !");
             if (!isWrong) {
-                System.out.println("Tahminleriniz : " + Arrays.toString(wrong));
+                System.out.print("Tahminleriniz : " + Arrays.toString(wrong));
             }
         }
     }
